@@ -1,0 +1,28 @@
+<div class="drivers-holder">
+
+  <a class="driver-box" *ngFor="let driver of drivers" routerLink="/driver/{{driver.driverId}}">
+    <div class="top">
+        <img class="avatar" src="{{driver.avtr}}" alt="">
+        <h3 class="driver-name">{{driver.fName}} {{driver.lName}}</h3>
+    </div>
+    
+    <ul>
+      <li class="row">
+        Nationality: {{driver.nationality}}
+      </li>
+      <li class="row">
+        Position: {{driver.position}}
+      </li>
+      <li class="row">
+        Points: {{driver.points}}
+      </li>
+      <li class="row">
+        Wins: {{driver.wins}}
+      </li>
+    </ul>
+    <div class="box-footer">
+      Constructor: {{driver.constructor}}
+    </div>
+  </a>
+ 
+</div>

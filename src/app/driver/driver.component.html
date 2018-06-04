@@ -1,0 +1,32 @@
+<div class="drivers-holder">
+  <div class="driver-profile">
+    <div class="header">
+      <img class="avatar" src="{{driverAvatar}}" alt="">
+      <h2 class="name">{{driver.givenName}} {{driver.familyName}}</h2>
+    </div>
+      <div class="info">
+        <div class="left">
+          <p>
+            Nationality: {{driver.nationality}}
+          </p>
+          <p>
+            Date of birth: {{driver.dateOfBirth}}
+          </p>
+        </div>
+        <div class="right">
+          <p>
+            Starting number: {{driver.permanentNumber}}
+          </p>
+          <p>
+            Biography: <a class="bio" href="{{driver.url}}" target="blank">{{driver.url}}</a>
+          </p>
+        </div>
+      </div>
+  </div>
+  <div class="visited">
+    <h3 class="recent-head">Recently Viewed Drivers</h3>
+    <p class="recent">Fernando Alonso</p>
+    <p class="recent">Fernando Alonso</p>
+    <p class="recent">Fernando Alonso</p>
+  </div>
+</div>

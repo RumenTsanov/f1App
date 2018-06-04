@@ -1,0 +1,60 @@
+.drivers-holder{
+    height: auto;
+    background-color: #e4e6e7;
+    padding: 5% 8% 5% 5%;
+}
+.driver-box{
+    width: 310px;
+    min-height: 200px;
+    background-color: #ffffff;
+    padding: 0 20px 0 20px;
+    color: #909494;
+    display: inline-block;
+    margin-left: 3.7%;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.driver-box:hover{
+    box-shadow: #ffffff;
+}
+.top{
+    width: 100%;
+    border-bottom: 2px solid #e4e6e7;
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    display: inline;
+    border-radius: 50%;
+    width: 45px;
+}
+.driver-name{
+    display: inline;
+    margin-left: 30px;
+    color: #499be7;
+}
+.row{
+    font-size: 20px;
+    
+}
+.box-footer{
+    border-top: 2px solid #e4e6e7;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    -webkit-padding-start: 0;
+  }
+
+  @media screen and (max-width: 768px){
+    .driver-box{
+        display: block; 
+        width: 75%;
+    }
+    .drivers-holder{
+        padding: 8% 5% 5% 5%;
+    }
+  }

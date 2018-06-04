@@ -1,0 +1,70 @@
+.drivers-holder{
+    height: 1000px;
+    background-color: #e4e6e7;
+    padding: 5% 8% 5% 8%;
+    color: #8c8e8f;
+}
+.driver-profile{
+    width: 55%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 3%;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border-radius: 50%;
+    display: inline;
+}
+.name{
+    display: inline;
+    margin-left: 20px;
+    font-size: 32px;
+}
+.info{
+    border-top: 2px solid #e4e6e7;
+}
+.left, .right{
+    display: inline-block;
+}
+
+.right{
+    margin-left: 10%;
+}
+.bio{
+    text-decoration: none;
+    width: 70px;
+}
+.visited{
+    background-color: #ffffff;
+    display: inline-block;  
+    padding: 10px;
+    margin-left: 6%;
+    margin-top: 3%
+}
+
+@media screen and (max-width: 1210px){
+    .visited{
+        display: none;
+    }
+    .driver-profile{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 953px){
+    .visited{
+        display: none;
+    }
+    .driver-profile{
+        width: 90%;
+    }
+    .right{
+        display: block;
+        margin-left: 0;
+        overflow: hidden;
+    }
+}
