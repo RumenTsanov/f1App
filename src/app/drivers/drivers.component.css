@@ -48,8 +48,18 @@ ul {
     list-style-type: none;
     -webkit-padding-start: 0;
   }
+  @media screen and (min-width: 1430px) and (max-width: 1920px){
+    .driver-box{
+        width: 25%;
+    }
+  }
+  @media screen and (min-width: 870px) and (max-width: 1360px){
+    .driver-box{
+        width: 40%;
+    }
+  }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 869px){
     .driver-box{
         display: block; 
         width: 75%;
@@ -58,3 +68,4 @@ ul {
         padding: 8% 5% 5% 5%;
     }
   }
+

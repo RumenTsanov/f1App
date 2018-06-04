@@ -5,7 +5,7 @@
   <span class="nav-btn last"><a class="nav-link" routerLink="/circuits" routerLinkActive="active">Circuits</a></span>
   <span class="mobile-nav" (click)="openMenu()"><img src="assets/img/menu.png" alt=""></span>
 </nav>
-<div class="mobile-menu" [ngStyle]="isOpened && {'display':'block'}">
+<div class="mobile-menu" [ngClass]="{'mobile-menu-opened': isOpened }">
   <span class="mobile-btn" (click)="openMenu()"><a class="mobile-link" routerLink="/drivers" routerLinkActive="active">Drivers</a></span>
   <span class="mobile-btn" (click)="openMenu()"><a class="mobile-link" routerLink="/constructors" routerLinkActive="active">Cronstructors</a></span>
   <span class="mobile-btn last" (click)="openMenu()"><a class="mobile-link" routerLink="/circuits" routerLinkActive="active">Circuits</a></span>

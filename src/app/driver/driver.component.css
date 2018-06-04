@@ -1,11 +1,11 @@
 .drivers-holder{
-    height: 1000px;
+    height: 900px;
     background-color: #e4e6e7;
     padding: 5% 8% 5% 8%;
     color: #8c8e8f;
 }
 .driver-profile{
-    width: 55%;
+    width: 65%;
     background-color: #ffffff;
     padding: 20px;
     display: inline-block;
@@ -17,7 +17,8 @@
 }
 .avatar{
     border-radius: 50%;
-    display: inline;
+    display: inline-block;
+    width: 70px;
 }
 .name{
     display: inline;
@@ -41,9 +42,11 @@
 .visited{
     background-color: #ffffff;
     display: inline-block;  
-    padding: 10px;
+    padding: 20px;
     margin-left: 6%;
-    margin-top: 3%
+    position: relative;
+    left: 2%;
+    top: -14px;
 }
 
 @media screen and (max-width: 1210px){
@@ -66,5 +69,9 @@
         display: block;
         margin-left: 0;
         overflow: hidden;
+    }
+    .avatar{
+        width: 90px;
+        margin-bottom: 10px;
     }
 }
